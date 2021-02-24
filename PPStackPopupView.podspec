@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PPStackPopupView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PPStackPopupView.'
+  s.summary          = '弹窗队列视图管理'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,13 +18,13 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+管理弹出的弹窗视图，可以设置优先级。
                        DESC
 
   s.homepage         = 'https://github.com/PP-Rabbit/PPStackPopupView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'PP-Rabbit' => 'chenshenglong@17paipai.cn' }
+  s.author           = { 'PP-Rabbit' => '13370155475@163.cn' }
   s.source           = { :git => 'https://github.com/PP-Rabbit/PPStackPopupView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Masonry'
 end

@@ -1,0 +1,23 @@
+PODS:
+  - Masonry (1.1.0)
+  - PPStackPopupView (0.1.0):
+    - Masonry
+
+DEPENDENCIES:
+  - PPStackPopupView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  PPStackPopupView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PPStackPopupView: e48a819b72682236d859f4df138957763b501147
+
+PODFILE CHECKSUM: 711e33414a9dec7c543a56ede75bf4b4ea22c662
+
+COCOAPODS: 1.10.1
