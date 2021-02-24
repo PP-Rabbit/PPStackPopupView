@@ -364,7 +364,7 @@ static StackPopupViewManager *POPUP_VIEW_MANAGER;
 }
 
 - (UIWindow *)getWindom:(UIView *)contentView{
-    return  [UIApplication sharedApplication].keyWindow;
+    return  [[UIApplication sharedApplication].windows firstObject];
 }
 
 @end
