@@ -22,7 +22,7 @@ pod 'PPStackPopupView'
 
 ## Author
 
-PP-Rabbit, chenshenglong@17paipai.cn
+PP-Rabbit, 13370155475@163.com
 
 ## License
 
