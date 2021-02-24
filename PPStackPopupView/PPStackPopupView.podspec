@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PPStackPopupView'
-  s.version          = '0.2.0'
+  s.version          = '0.1.0'
   s.summary          = '弹窗队列视图管理'
 
 # This description is used to generate tags and improve search results.
